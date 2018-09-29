@@ -41,7 +41,7 @@ const subscribe = example.subscribe(val => console.log(val));
 ```js
 // RxJS v6+
 import { interval, merge } from 'rxjs';
-import { throttleTime, ignoreElements } from 'rxjs/operators';
+import { throttleTime } from 'rxjs/operators';
 
 const source = merge(
   //emit every .75 seconds
